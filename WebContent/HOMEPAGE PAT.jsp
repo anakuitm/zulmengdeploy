@@ -151,8 +151,8 @@ a{margin-right: 4px;}
 <div class="header">
 
   <div class="header-right">
-   Welcome,<%=request.getAttribute("patrolmanUsername") %> 
-    <a href="PatrolmanViewProfileServlet?patrolmanUsername=<%=request.getAttribute("patrolmanUsername") %> ">PROFILE</a>
+  <!-- Welcome,<%=request.getAttribute("patrolmanUsername") %> -->
+    <!-- <a href="PatrolmanViewProfileServlet?patrolmanUsername=<%=request.getAttribute("patrolmanUsername") %> ">PROFILE</a> -->
   
     <a href="login patrolman.jsp">LOGOUT</a>
   </div>

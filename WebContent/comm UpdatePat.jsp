@@ -161,29 +161,29 @@ a {text-decoration:none;}
 			<div id="frmRegistration">
 			<div class="hero">
 			
-			<form name = "form" action="UpdatePatrolman" method="post" onsubmit="return validate()">
+			<form name = "form" action="UpdatePatrolman" method="post">
   <div class="imgcontainer">
   </div>
 
 
 			<div class="data">
                   <label>Patrolman ID: 
-                  <input type="text" name="patrolmanId" value="<c:out value="${patrolman.patrolmanId}"/>"/></label> 			  
+                  <input type="text" name="patrolmanId" value="<c:out value="${patrolman.patrolmanId}"/>"readonly/></label> 			  
                </div>
 			
                <div class="data">
                   <label>Resident ID:
-                  <input type="text" name="residentId" value="<c:out value="${patrolman.residentId}"/>"/></label> 			  
+                  <input type="text" name="residentId" value="<c:out value="${patrolman.residentId}"/>"readonly/></label> 			  
                </div>
 			   
                <div class="data">
                   <label>Username:
-                  <input type="text" name="patrolmanUsername" value="<c:out value="${patrolman.patrolmanUsername}"/>"/></label>   
+                  <input type="text" name="patrolmanUsername" value="<c:out value="${patrolman.patrolmanUsername}"/>"required/></label>   
 				
                </div>
 			   <div class="data">
                   <label>Password:</label>    
-					<input type="text" name="patrolmanPassword" value="<c:out value="${patrolman.patrolmanPassword}"/>"/>
+					<input type="text" name="patrolmanPassword" value="<c:out value="${patrolman.patrolmanPassword}"/>"required/>
                </div>
 			  
                <div class="btn">

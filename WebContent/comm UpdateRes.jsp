@@ -131,29 +131,29 @@ a {text-decoration:none;}
                </div>
                <div class="data">
                   <label>Name:</label> 
-					<input type="text" name="residentName" value="<c:out value="${resident.residentName}"/>">				  
+					<input type="text" name="residentName" value="<c:out value="${resident.residentName}"/>" required>				  
                </div>
                <div class="data">
                   <label>Phone Number:</label>   
-					<input type="number" name="residentPhoneNum" value="<c:out value="${resident.residentPhoneNum}"/>">
+					<input type="number" name="residentPhoneNum" value="<c:out value="${resident.residentPhoneNum}"/>"required>
                </div>
 			   <div class="data">
                   <label>Address:</label>    
-					<input type="text" name="residentAddress" value="<c:out value="${resident.residentAddress}"/>" >
+					<input type="text" name="residentAddress" value="<c:out value="${resident.residentAddress}"/>" required>
                </div>
 			   <div class="data">
                   <label>Email:</label> 
-					<input type="email" name="residentEmail" value="<c:out value="${resident.residentEmail}"/>" >
+					<input type="email" name="residentEmail" value="<c:out value="${resident.residentEmail}"/>" required>
                </div>
 			   <div class="data">
                   <label>Username:</label>    
-					<input type="text" name="residentUsername" value="<c:out value="${resident.residentUsername}"/>">
+					<input type="text" name="residentUsername" value="<c:out value="${resident.residentUsername}"/>" required>
                </div>
 			   <div class="data">
                   <label>Password:</label>  
-					<input type="text" name="residentPassword" value="<c:out value="${resident.residentPassword}"/>">
+					<input type="text" name="residentPassword" value="<c:out value="${resident.residentPassword}"/>" required>
 					
-					<input type="hidden" name="residentId" value="<c:out value="${resident.residentId}"/>" /><br>
+					<input type="hidden" name="residentId" value="<c:out value="${resident.residentId}"/>" required><br>
 					
                </div>
                <div class="btn">

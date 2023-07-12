@@ -156,18 +156,18 @@ a {text-decoration:none;}
 
 		<div class="data">
                   <label>Patrolman ID:</label>  
-                  <input type="text" name="patrolmanId" > 					
+                  <input type="text" name="patrolmanId" required> 					
                </div>
 
 		
                <div class="data">
                   <label>Report Description:</label>  
-                  <input type="text" name="reportDescription" > 					
+                  <input type="text" name="reportDescription" required > 					
                </div>
                
                <div class="data">
                   <label>Report Date: (YYYY-MM-DD)</label>  
-                  <input type="text" name="reportDateSubmit" > 					
+                  <input type="text" name="reportDateSubmit" required> 					
                </div>
 			  
                <div class="btn">

@@ -128,20 +128,21 @@ a {text-decoration:none;}
 
 			<div class="data">
                   <label>Patrolman ID:</label>
-                  <input type="text" name ="patrolmanId" > 			  
+                  <input type="text" name ="patrolmanId" required > 			  
                </div>
              
 			   <div class="data">
                   <label>Time(HH:MM AM/PM - HH:MM AM/PM):</label>    
-					<input type="text"  name ="scheduleTime">
+					<input type="text"  name ="scheduleTime" required>
                </div>
 			   <div class="data">
                   <label>Date (YYYY-MM-DD):</label>    
-					<input type="text"  name ="scheduleDate">
+					<input type="text"  name ="scheduleDate" required>
                </div>
                 <div class="data">
                   <label>Location ID:</label> 	
-                  <select type="text"  name ="locationId">
+                  <select type="text"  name ="locationId" required>
+                    <option value="">-- Please select option --</option>
     				<option value="1">1 - Taman Pura Kencana 1</option>
    					 <option value="2">2 - Taman Pura Kencana 2</option>
   					  <option value="3">3 - Taman Pura Kencana 3</option>

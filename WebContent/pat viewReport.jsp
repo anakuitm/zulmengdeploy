@@ -160,7 +160,7 @@ a{margin-right: 4px;}
 
   <div class="header-right">
   <a href="HOMEPAGE PAT.jsp">HOME</a>
-   <a href="Pat Profile.jsp">PROFILE</a>
+    <!-- <a href="Pat Profile.jsp">PROFILE</a> -->
     <a href="index.jsp">LOGOUT</a>
   </div>
 </div>

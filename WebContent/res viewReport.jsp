@@ -158,7 +158,7 @@ a{margin-right: 4px;}
 
   <div class="header-right">
   <a href="HOMEPAGE RESIDENTS.jsp">HOME</a>
-   <a href="Res Profile.jsp">PROFILE</a>
+   <!-- <a href="Res Profile.jsp">PROFILE</a> -->
     <a href="index.jsp">LOGOUT</a>
   </div>
 </div>

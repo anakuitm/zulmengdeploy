@@ -154,17 +154,17 @@ a {text-decoration:none;}
 
 			<div class="data">
                   <label>Patrolman ID: 
-                  <input type="text" name="patrolmanId" value="<c:out value="${report.patrolmanId}"/>"/></label> 	  
+                  <input type="text" name="patrolmanId" value="<c:out value="${report.patrolmanId}"/>" readonly /></label> 	  
                </div>
 			
                <div class="data">
                   <label>Report Description:
-                   <input type="text" name="reportDescription" value="<c:out value="${report.reportDescription}"/>"/></label> 				  
+                   <input type="text" name="reportDescription" value="<c:out value="${report.reportDescription}"/>" required /></label> 				  
                </div>
 			   
                <div class="data">
                   <label>Report Date Submit:</label>  
-                  <input type="text" name="reportDateSubmit" value="<c:out value="${report.reportDateSubmit}"/>"/>					
+                  <input type="text" name="reportDateSubmit" value="<c:out value="${report.reportDateSubmit}"/>" readonly />					
                </div>
                
                <input type="hidden" name="reportId" value="<c:out value="${report.reportId}"/>" /><br>

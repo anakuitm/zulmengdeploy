@@ -152,8 +152,8 @@ a:hover, a:active {
 <div class="header">
 
   <div class="header-right">
-  Welcome, <%=request.getAttribute("residentUsername") %> 
-    <a href="ResidentViewProfileServlet?residentUsername=<%=request.getAttribute("residentUsername") %> ">PROFILE</a>
+  <!-- Welcome, <%=request.getAttribute("residentUsername") %>  -->
+   <!-- <a href="ResidentViewProfileServlet?residentUsername=<%=request.getAttribute("residentUsername") %> ">PROFILE</a> -->
     <a href="index.jsp">LOGOUT</a>
     
     

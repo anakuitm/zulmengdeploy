@@ -40,7 +40,7 @@
 .container{
   background: #A1B1F8;
   width: 1325px;
-  height: 500px;
+  height: 1500px;
   padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 10px;
@@ -145,7 +145,10 @@ form .btn:hover button{
 	
          
   <div class="imgcontainer">
+
 <div class="container">
+  <a href="HOMEPAGE COM.jsp"><img src="img/close.png"></a>
+  
   <div class="row">
     <div class="col-12">
       <table class="table table-bordered">
